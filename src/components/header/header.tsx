@@ -4,7 +4,7 @@ import { MdMenu } from 'react-icons/md'
 
 export function Header () {
     return(     
-    <header className="p-4 bg-gray container flex justify-between items-center">
+    <header className="p-4 bg-black flex justify-between items-center w-full">
       <nav className="container flex justify-between h-16 mx-auto">
         <LinkHome />
         <ul className="items-stretch hidden space-x-3 md:flex">
